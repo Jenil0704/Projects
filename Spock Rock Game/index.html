@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spock Rock Game</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <h1>Rock Paper Scissors Lizard Spock</h1>
+        </div>
+        <div class="player-container" id="player">
+            <h2> Score- <span id="playerScore">0</span>
+            <span class="playerChoice"></span></h2>
+            <i class="far fa-hand-rock" title="Rock" id="playerRock" onclick="select('rock')"></i>
+            <i class="far fa-hand-paper" title="Paper" id="playerPaper" onclick="select('paper')"></i>
+            <i class="far fa-hand-scissors" title="Lizard" id="playerScissors" onclick="select('scissors')"></i>
+            <i class="far fa-hand-lizard" title="Lizard" id="playerLizard" onclick="select('lizard')"></i>
+            <i class="far fa-hand-spock" title="Spock" id="playerSpock" onclick="select('spock')"></i>
+        </div>
+
+
+        <div class="player-container" id="computer">
+            <h2> Score- <span id="computerScore">0</span>
+            <span class="computerChoice"></span></h2>
+            <i class="far fa-hand-rock" title="Rock" id="computerRock"></i>
+            <i class="far fa-hand-paper" title="Paper" id="computerPaper"></i>
+            <i class="far fa-hand-scissors" title="Lizard" id="computerScissors"></i>
+            <i class="far fa-hand-lizard" title="Lizard" id="computerLizard"></i>
+            <i class="far fa-hand-spock" title="Spock" id="computerSpock"></i>
+        </div>
+
+        <i class="fas fa-sync-alt reset-icon" onclick="resetAll()"></i>
+
+        <div class="result-container">
+            <h3 class="result-text" id="resultText"></h3>
+        </div>
+
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
+
