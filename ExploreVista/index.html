@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body id="#main" class="bg-black">
+    <div id="main">
+
+        
+        <div class="nav z-[999]  h-[10vh] w-full">
+            <nav class="w-full h-full py-4 text-white bg-black flex items-center justify-between px-24">
+                <h1 class="text-2xl font-semibold">ExploreVista</h1>
+                <div class="flex items-center gap-10">
+                    <a href="#" class="text-lg cursor-pointer">Home</a>
+                    <a href="./about.html" class="text-lg cursor-pointer">About</a>
+                    <a href="#" class="text-lg cursor-pointer">Popular</a>
+                    <a href="./slider/index.html" class="text-lg cursor-pointer">Explore</a>
+                </div>
+            </nav>
+        </div>
+        
+        <div class="w-full h-screen bg-black relative  overflow-hidden">
+            <!-- Video Container -->
+            <div class="video-container absolute top-0 left-0 w-full h-full z-0 ">
+                <video loop muted autoplay class="w-full h-full object-cover ">
+                    <source src="" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <!-- Content -->
+            <div class="w-full px-24 p-10 z-10 text-white relative">
+                <h1 class="text-3xl">Welcome to ExploreVista</h1>
+                <div class="mt-2">
+                    <h1 class="scramble text-7xl font-semibold tracking-tight leading-[5.5vw]">Explore</h1>
+                    <h1 class="scramble text-7xl font-semibold tracking-tight leading-[5.5vw]">The World</h1>
+                </div>
+                <div class="mt-3">
+                    <p class="text-lg opacity-40">Live the trips exploring the world, discover paradises, islands,
+                        mountains and much more, get your trip now.</p>
+                        <p class="text-lg opacity-40">islands, mountains and much more, get your trip now.</p>
+                    </div>
+                    <button class="login py-4 px-4  rounded-md bg-gray-600 font-semibold mt-7 flex items-center gap-5">Start Your
+                        Journey
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                d="M8.293 4.293a1 1 0 0 1 1.414 0l6 6a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414L13.586 11H4a1 1 0 0 1 0-2h9.586L8.293 5.707a1 1 0 0 1 0-1.414z"
+                                clip-rule="evenodd" />
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="flex w-full h-44 mt-8 gap-5">
+                        <div class="w-full h-full bg-pink-900 relative">
+                            <h1 class="absolute bottom-8 left-5 text-xl font-semibold text-white">Maldives</h1>
+                            <img class="w-full h-full object-cover"
+                            src="./images/Maldives.jpg" alt="Maldives">
+                        </div>
+                        <div class="w-full h-full bg-pink-900 relative">
+                            <h1 class="absolute bottom-8 left-5 text-xl font-semibold text-white">Bali</h1>
+                            <img class="w-full h-full object-cover"
+                            src="./images/Bali.jpg" alt="Bali">
+                        </div>
+                        <div class="w-full h-full bg-pink-900 relative">
+                            <h1 class="absolute bottom-8 left-5 text-xl font-semibold text-white">Iceland</h1>
+                            <img class="w-full h-full object-cover"
+                            src="./images/Iceland.jpg" alt="Iceland">
+                        </div>
+                        <div class="w-full h-full bg-pink-900 relative">
+                            <h1 class="absolute bottom-8 left-5 text-xl font-semibold text-white">Italy</h1>
+                            <img class="w-full h-full object-cover"
+                            src="./images/Italy.jpg" alt="Italy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            
+            <div id="popular" class="popular w-full bg-black text-white px-24 py-14">
+                <h1 class="text-5xl text-center leading-[4vw] tracking-tight font-semibold">Enjoy the Beauty</h1>
+                <h1 class="text-5xl text-center leading-[4vw] tracking-tight font-semibold">Of the World</h1>
+                <div class="w-full h-[25vw] flex mt-14">
+                    <div class="w-1/2 h-[25vw]">
+                        <img src="./images/Spiti-Valley.jpg" class="w-full h-full object-cover">
+                    </div>
+                    
+                    <div class="w-1/2 h-full p-5">
+                <h1 class="text-3xl pl-5">Spiti Valley</h1>
+                <p class="text-xl pl-5">India</p>
+                <p class="mt-7 text-lg pl-5">Spiti Valley is a land of unparalleled beauty and cultural richness, offering visitors an unforgettable journey into the heart of the Himalayas. Its remote location and pristine surroundings make it a perfect destination for those seeking adventure, spiritual solace, or simply a break from the chaos of modern life. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, hic quis nihil in exercitationem dolorum ipsam vel impedit optio nisi, iste adipisci ad, unde cum ab molestias harum velit provident?</p>
+            </div>
+        </div>
+        
+        <div class="w-full h-[25vw] flex gap-5 mt-16">
+            <div class="w-1/2 h-full py-5">
+                <h1 class="text-3xl mr-10">Leh Ladakh</h1>
+                <p class="text-xl mr-10">India</p>
+                <p class="mt-7 text-lg mr-10"> Leh Ladakh is a land of awe-inspiring beauty, ancient culture, and thrilling adventures, making it a must-visit destination for anyone seeking an unforgettable journey into the heart of the Himalayas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, hic quis nihil in exercitationem dolorum ipsam vel impedit optio nisi, iste adipisci ad, unde cum ab molestias harum velit provident?</p>
+            </div>
+            
+            <div class="w-1/2 h-full ml-10">
+                <img src="./images/Leh-ladakh.jpg" class="w-full h-full object-cover">
+            </div>
+        </div>
+    </div>
+    
+    <div class="flex w-full py-8 text-white bg-gray-700 justify-center gap-24">
+        <div class="flex flex-col items-center">
+            <span class="text-5xl h-24 w-24 rounded-full flex items-center justify-center bg-zinc-200 text-black">
+                <i class="fa-solid fa-plane"></i>
+            </span>
+            <h1>Flights</h1>
+        </div>
+        
+        <div class="flex flex-col items-center">
+            <span class="text-5xl h-24 w-24 rounded-full flex items-center justify-center bg-zinc-200 text-black">
+              <i class="fa-solid fa-car"></i>
+            </span>
+            <h1>On-Road</h1>
+        </div>
+
+        <div class="flex flex-col items-center">
+            <span class="text-5xl h-24 w-24 rounded-full flex items-center justify-center bg-zinc-200 text-black">
+                <i class="fa-solid fa-train-subway"></i>
+            </span>
+            <h1>Train</h1>
+        </div>
+        
+        <div class="flex flex-col items-center">
+            <span class="text-5xl h-24 w-24 rounded-full flex items-center justify-center bg-zinc-200 text-black">
+                <i class="fa-solid fa-ship"></i>
+            </span>
+            <h1>Cruise</h1>
+        </div>
+    </div>
+    
+    <div class="w-full h-48 py-10 px-24  bg-black text-white flex items-center justify-between border">
+        <div>
+            <h1>ExploreVista</h1>
+        </div>
+        <div>
+            <h1 class="text-2xl font-semibold ">Contact Us:</h1>
+            <h3 class="mt-2">Jenil Reshamiya, email : jenilreshamiya7@gmail.com</h3>
+            <h3>Aum Trivedi, email : jenilreshamiya7@gmail.com</h3>
+            <h3>Priyank Garala, email : jenilreshamiya7@gmail.com</h3>
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+<script src="./script.js"></script>
+</html>

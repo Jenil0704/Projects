@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+    <div class="container bg-black h-screen w-full">
+        <form action="" class="card py-2 px-11 text-white  bg-gray-800 h-[48vw] w-[35vw] absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
+            <h1 class="text-center text-white font-semibold text-3xl">Book Now!</h1>
+            <p class="text-center text-white text-lg mt-2">Your Journey Starts With Us</p>
+
+            <div class="">
+                <h1 class="text-lg font-semibold">Name</h1>
+                <input type="text" placeholder="Enter Your Name" class="mt-2 p-2 w-full rounded-md outline-none text-black">
+            </div>
+
+            <div class="mt-2">
+                <h1 class="text-lg font-semibold ">Your E-mail</h1>
+                <input type="email" placeholder="Enter Your Mail" class="mt-2 p-2 w-full rounded-md outline-none text-black">
+            </div>
+
+            <div class="mt-2">
+                <h1 class="text-lg font-semibold">Your Phone</h1>
+                <input type="tel" placeholder="Enter Your Phone Number" class="mt-2 p-2 w-full rounded-md outline-none text-black">
+            </div>
+            <div class="w-full border-[1px] mt-5"></div>
+
+            <div class="flex gap-10 mt-2">
+                <div class="w-1/2">
+                <h1 class="text-lg font-semibold">Adult</h1>
+                <input type="number" placeholder="2" class="mt-2 p-2 w-full rounded-md outline-none text-black">
+                </div>
+                <div class="w-1/2">
+                    <h1 class="text-lg font-semibold">Children</h1>
+                <input type="number" placeholder="2" class="mt-2 p-2 w-full rounded-md outline-none text-black">
+                </div>
+            </div>
+
+            <div class="w-full flex gap-10 mt-2">
+                <div class="w-1/2">
+                    <h1>Check-in Date</h1>
+                    <input type="date" placeholder="dd/mm/yy" class="text-black w-full p-2 rounded-md outline-none">
+                </div>
+
+                <div class="w-1/2">
+                    <h1>Check-out Date</h1>
+                    <input type="date" placeholder="dd/mm/yy" class="text-black w-full p-2 rounded-md outline-none">
+                </div>
+            </div>
+            <div class="mt-2">
+                <h1>Select Room Preference</h1>
+                <select name="Choose a Room from the List" class="text-black w-full p-2 mt-1">
+                    <option value="2 Rooms + Extra Bed ">2 Rooms + Extra Bed</option>
+                    <option value="2 Rooms + Extra Bed ">2 Rooms + Extra Bed</option>
+                    <option value="2 Rooms + Extra Bed ">2 Rooms + Extra Bed</option>
+                    <option value="2 Rooms + Extra Bed ">2 Rooms + Extra Bed</option>
+                    <option value="2 Rooms + Extra Bed ">2 Rooms + Extra Bed</option>
+                </select>
+            </div>
+            <div class="w-full border-[1px] mt-5"></div>
+            <div class="mt-3">
+                <h1 class="text-lg font-semibold">Anything Else?</h1>
+                <input type="text" placeholder="Tell us anything that might be important" class="w-full p-3 mt-2">
+            </div>   
+            <button class="py-2 px-4 w-full mt-2 rounded-md text-lg font-semibold bg-zinc-900 text-white" type="submit">Submit</button>  
+        </form>
+    </div>
+</body>
+</html>
